@@ -1,13 +1,13 @@
 package com.example.unsplashcompose.model
 
 import androidx.room.Embedded
-import com.google.gson.annotations.SerializedName
+import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
 data class User(
-    @SerializedName("links")
+    @SerialName("links")
     @Embedded
     val userLinks: UserLinks,
-    val userName: String
+    val username: String
 )
