@@ -1,4 +1,4 @@
-package com.example.unsplashcompose
+package com.example.unsplashcompose.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
